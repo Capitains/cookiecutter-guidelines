@@ -1,6 +1,6 @@
 {
-	"repo-name" : "Name of your (github) repository",
-	"user-name" : "Name of the github user or organization hosting the repository",
+	"reponame" : "Name of your (github) repository",
+	"username" : "Name of the github user or organization hosting the repository",
 	"project" : "No space string to represent the project or the lab, ie : \"eagle\", \"perseus\", \"ciham\", etc.",
     "license": ["GNU GPL v3.0", "CC-BY", "CC-BY-NC"],
     "description": "Description of this repository",
