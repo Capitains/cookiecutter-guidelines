@@ -18,5 +18,5 @@
     "translation": "Title of your translation",
     "translation_lang" : "Translation language as 3 character long string (fre, fro, lat, grc)",
     "desc_translation": "Description of your edition",
-    "level_translation" : "Name of your levels separated by a comma (eg. 'book,poem,line' , 'chapter,section', etc.)",
+    "level_translation" : "Name of your levels separated by a comma (eg. 'book,poem,line' , 'chapter,section', etc.)"
 }
