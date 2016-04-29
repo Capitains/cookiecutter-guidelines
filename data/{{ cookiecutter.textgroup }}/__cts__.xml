@@ -1,3 +1,0 @@
-<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:{{namespace}}:{{textgroup}}">
-	<ti:groupname xml:lang="{{desc_lang}}">{{tg_name}}</ti:groupname>
-</ti:textgroup>

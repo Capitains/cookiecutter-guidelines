@@ -11,13 +11,13 @@
     "wk_name" : "Name of the work entity (Text title, Inscription Name, etc.)",
     "work": "Identifier for your work (tlg001, phi001, stoa001, 1, wk001)",
     "work_lang" : "Original language of the edited work as 3 character long string (fre, fro, lat, grc)",
-    "is_edition": ["y", "n"],
+    "is_edition": ["I have an edition", "I have no edition"],
     "edition" : "Title of your edition",
     "desc_edition": "Description of your edition",
     "level_edition" : "Name of your levels separated by a comma (eg. 'book,poem,line' , 'chapter,section', etc.)",
-    "is_translation": ["y", "n"],
+    "is_translation": ["I have a translation", "I have no translation"],
     "translation": "Title of your translation",
     "translation_lang" : "Translation language as 3 character long string (fre, fro, lat, grc)",
-    "desc_translation": "Description of your edition",
+    "desc_translation": "Description of your translation",
     "level_translation" : "Name of your levels separated by a comma (eg. 'book,poem,line' , 'chapter,section', etc.)"
 }

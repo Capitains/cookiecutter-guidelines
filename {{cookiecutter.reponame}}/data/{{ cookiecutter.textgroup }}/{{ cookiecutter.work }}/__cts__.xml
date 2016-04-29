@@ -1,0 +1,15 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:{{cookiecutter.namespace}}:{{cookiecutter.textgroup}}" urn="urn:cts:{{cookiecutter.namespace}}:{{cookiecutter.textgroup}}.{{cookiecutter.work}}" xml:lang="{{cookiecutter.work_lang}}">
+    <ti:title xml:lang="{{cookiecutter.desc_lang}}">{{cookiecutter.wk_name}}</ti:title>
+    {% if cookiecutter.is_edition == "I have an edition" %}
+    <ti:edition workUrn="urn:cts:{{cookiecutter.namespace}}:{{cookiecutter.textgroup}}.{{cookiecutter.work}}" urn="urn:cts:{{cookiecutter.namespace}}:{{cookiecutter.textgroup}}.{{cookiecutter.work}}.{{cookiecutter.project}}-{{cookiecutter.work_lang}}1">
+        <ti:label xml:lang="{{cookiecutter.desc_lang}}">{{cookiecutter.edition}}</ti:label>
+        <ti:description xml:lang="{{cookiecutter.desc_lang}}">{{cookiecutter.desc_edition}}</ti:description>
+    </ti:edition>
+    {%endif%}
+    {% if cookiecutter.is_translation == "I have a translation" %}
+    <ti:translation xml:lang="{{cookiecutter.translation_lang}}" workUrn="urn:cts:{{cookiecutter.namespace}}:{{cookiecutter.textgroup}}.{{cookiecutter.work}}" urn="urn:cts:{{cookiecutter.namespace}}:{{cookiecutter.textgroup}}.{{cookiecutter.work}}.{{cookiecutter.project}}-{{cookiecutter.translation_lang}}1">
+        <ti:label xml:lang="{{cookiecutter.desc_lang}}">{{cookiecutter.translation}}</ti:label>
+        <ti:description xml:lang="{{cookiecutter.desc_lang}}">{{cookiecutter.desc_translation}}</ti:description>
+    </ti:translation>
+    {%endif%}
+</ti:work>

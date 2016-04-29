@@ -1,4 +1,3 @@
-.. {% if False %}
 CapiTainS/cookiecutter-guidelines
 =================================
 
@@ -16,26 +15,27 @@ Use it now
 
 You will be asked about your basic info (name, project name, app name, etc.). This info will be used in your new project.
 
+Examples values
+***************
 
-Do not mind what's behind this line
-===================================
-
-.. {% elif True %}
-
-{{cookiecutter.username}}/{{cookiecutter.reponame}}
-===========================
-
-|Hook Status| |Hook Coverage| |Hook Texts| |License|
-
-.. |Hook Status| image:: http://ci.perseids.org/api/rest/v1.0/code/{{cookiecutter.username}}/{{cookiecutter.reponame}}/status.svg?branch=refs%2Fheads%2Fmaster
-   :target: http://ci.perseids.org/repo/{{cookiecutter.username}}/{{cookiecutter.reponame}}
-.. |Hook Coverage| image:: http://ci.perseids.org/api/rest/v1.0/code/{{cookiecutter.username}}/{{cookiecutter.reponame}}/coverage.svg?branch=refs%2Fheads%2Fmaster
-   :target: http://ci.perseids.org/repo/{{cookiecutter.username}}/{{cookiecutter.reponame}}
-.. |Hook Texts| image:: http://ci.perseids.org/api/rest/v1.0/code/{{cookiecutter.username}}/{{cookiecutter.reponame}}/cts.svg?branch=refs%2Fheads%2Fmaster
-   :target: http://ci.perseids.org/repo/{{cookiecutter.username}}/{{cookiecutter.reponame}}
-.. |License| image:: https://img.shields.io/badge/License-{{cookiecutter.license.replace("-", "--")}}-blue.svg
-
-
-{{description}}
-
-.. {% endif %}
+- **reponame** : "canonical-latinLit"
+- **username** : "PerseusDL",
+- **project** : "perseus",
+- **license**: "CC-BY",
+- **description**: "Description of this repository",
+- **desc_lang** : "eng",
+- **namespace**: "latinLit",
+- **tg_name** : "Textgroup Name",
+- **textgroup**: "textgroupIdentifier",
+- **wk_name** : "WorkName",
+- **work**: "workIdentifier",
+- **work_lang** : "lat",
+- **is_edition**: "I have an edition",
+- **edition** : "Edition Title",
+- **desc_edition**: "Description of your edition",
+- **level_edition** : "book,poem,line",
+- **is_translation**: "I have a translation",
+- **translation**: "Title of your translation",
+- **translation_lang** : "eng",
+- **desc_translation**: "Description of your translation",
+- **level_translation** : "chapter,section"

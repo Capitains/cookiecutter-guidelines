@@ -1,0 +1,3 @@
+<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:{{cookiecutter.namespace}}:{{cookiecutter.textgroup}}">
+	<ti:groupname xml:lang="{{cookiecutter.desc_lang}}">{{cookiecutter.tg_name}}</ti:groupname>
+</ti:textgroup>
